@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section id="articles" class="container"></section>
+
+<div class="form-wrapper">
+    <form action="post" id="new-post" class="new-post">
+        <ul>
+            <li>
+                <h2>Добавить новость</h2>
+            </li>
+            <li>
+                <input type="text" id="article-title" name="article-title" placeholder="Заголовок">
+            </li>
+            <li>
+                <input required type="text" id="article-description" name="article-description" placeholder="Описание">
+            </li>
+            <li>
+                <input type="text" id="article-url" placeholder="Ссылка на новость">
+            </li>
+            <li>
+                <input type="text" id="article-image" placeholder=" Ссылка на картинку https://">
+            </li>
+            <li>
+                <button type="submit">Отправить новость</button>
+            </li>
+        </ul>
+    </form>
+</div>
+
+    <script src="js/news.js"></script>
+    <script src="js/main.js"></script>    
+</body>
+</html>
