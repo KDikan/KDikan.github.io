@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{e30a3e44-96b0-48e7-88d8-c792d750e92e}"
+       Name="IsVisible"
+       DisplayName="Is Visible"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Task3 Site Columns">
+  </Field>
+</Elements>

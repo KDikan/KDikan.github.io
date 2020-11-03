@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" AutoActivateInCentralAdmin="TRUE" Description="Test" Id="4db480b5-2397-4a1c-86b1-11adeb3c121a" ImageUrl="../Images/icon.png" Scope="Site" Title="Dikan - NewsBlock">
+  <ElementManifests>
+    <ElementManifest Location="AssignedPerson\Elements.xml" />
+    <ElementManifest Location="DatePublishing\Elements.xml" />
+    <ElementManifest Location="Descriprtion\Elements.xml" />
+    <ElementManifest Location="IsVisible\Elements.xml" />
+    <ElementManifest Location="NewsItem\Elements.xml" />
+    <ElementManifest Location="NewsInstance\Elements.xml" />
+    <ElementManifest Location="News\Elements.xml" />
+    <ElementFile Location="News\Schema.xml" />
+    <ElementManifest Location="NewsWebPart\Elements.xml" />
+    <ElementFile Location="NewsWebPart\NewsWebPart.webpart" />
+  </ElementManifests>
+</Feature>

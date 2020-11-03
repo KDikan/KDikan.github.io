@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="9feaea32-1fb7-4602-bd72-f4e2a035ef23" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="SharePointTask3.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="SharePointTask3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a3963fe67491cb9f" Namespace="SharePointTask3.WebParts.NewsWebPart" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\SharePointTask3.WebParts\NewsWebPart\NewsWebPartUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="SharePointTask3_Feature3\Feature.xml" />
+  </FeatureManifests>
+</Solution>

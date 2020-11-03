@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{e625f91f-d0d2-4c47-aadc-5093838a1ca6}"
+       Name="DatePublishing"
+       DisplayName="Date Publishing"
+       Type="DateTime"
+       Required="FALSE"
+       Group="Task3 Site Columns">
+  </Field>
+</Elements>
